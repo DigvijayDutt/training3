@@ -1,0 +1,39 @@
+/* Set a dark blue background for the entire page */
+body {
+    background-color: #003366; /* Dark blue background */
+    color: white; /* Default text color to ensure readability */
+}
+
+/* Set a light blue background for the startup cards */
+.startup-card {
+    background-color: lightblue;
+    border: none;
+}
+
+/* Set dark blue color for the card container */
+.card-body {
+    background-color: #6b59c2; /* Dark blue background for card container */
+    color: white; /* White text color */
+}
+
+/* Add some padding to the card text for better spacing */
+.card-text {
+    margin-bottom: 10px;
+}
+
+/* Add some styling to the buttons */
+.btn-primary {
+    background-color: darkblue;
+    border-color: darkblue;
+}
+
+/* Add a hover effect to the buttons */
+.btn-primary:hover {
+    background-color: #003366; /* Slightly lighter dark blue on hover */
+    border-color: #003366;
+}
+
+.startup-card {
+    border-radius: 10px 20px 30px 40px; /* Top-left, top-right, bottom-right, bottom-left */
+}
+
